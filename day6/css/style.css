@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #4b7b8a;
+    --secondary-color: #eee9f7;
+    --text-color: #333;
+    --white-color: white;
+    --border-color: #ddd;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: var(--text-color);
+    background-color: #f5f5f5;
+    min-height: 100vh;
+}
+
+h1,h2,p {margin-bottom: 10px;}
+
+header {
+    height: 30vh;
+    width: 100%;
+    padding: 50px 20px;
+    text-align: center;
+
+    background: var(--primary-color);
+
+    background-image: url("../Img/profile.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    color: var(--white-color);
+}
+
+#profile {
+    width: 80%;
+    max-width: 900px;
+    min-height: 300px;
+    margin: 30px auto;
+    padding: 30px;
+
+    background-color: var(--white-color);
+    border: 1px solid var(--border-color);
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.profile-photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: grab;
+}
+
+.profile-info h2 {
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.profile-info {
+    --info-color: #666;
+}
+
+.job-title {
+    color: var(--info-color);
+    font-size: 1.2em;
+}
+
+.skills > ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.skills {
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: var(--secondary-color);
+    cursor: help;
+}
+
+.skills li {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 10px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.about {
+    width: 80%;
+    max-width: 900px;
+    min-height: 250px;
+    margin: 30px auto;
+    padding: 25px;
+
+    background-color: var(--white-color);
+}
+
+.about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+p {
+   color: black;
+}
+
+.profile-info p {color: #777;}
+
+#about-text {
+    color: var(--primary-color);
+}
+
+/* Overflow Example */
+.long-text {
+   width: 70%;
+   height: 80px;
+   margin-top: 20px;
+   padding: 15px;
+   border: 1px solid var(--border-color);
+   overflow: auto;
+   cursor: grab;
+}
+
+.contact-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 0.8em 1.5em;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  text-decoration: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+    background-color: #5a2d4b;
+}
+
+.skills li:hover {
+    background-color: #382d5a;
+}
+
+/* !important gives this CSS property higher priority than normal rules. */
+/* Used once to override other paragraph rules */
+footer p {
+    color: var(--white-color) !important;
+}
+
+footer {
+    width: 100%;
+    min-height: 100px;
+    margin-top: 40px;
+    padding: 35px;
+
+    background: #222;
+
+    text-align: center;
+}
+
+footer p {
+    font-size: 1vw;
+}
