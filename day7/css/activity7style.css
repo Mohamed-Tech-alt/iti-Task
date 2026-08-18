@@ -1,0 +1,95 @@
+.container {
+    background-color: brown;
+    width: 80%;
+    margin: 10px;
+    text-align: center;
+}
+.container img {
+    width: 30%;
+    margin: 15px auto;
+    border: 5px solid rgb(0, 0, 0, 0.100);
+    border-radius: 50%;
+}
+
+.container .qoute {
+    margin: 12px 0px;
+}
+
+.container .qoute a {
+    background-color: #5f4448;
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.container button {
+    background-color: #c79815;
+    color: whitesmoke;
+    margin: 4px auto;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+}
+   /* Color */
+        .color {
+            color: blue;
+        }
+
+        /* Text Shadow */
+        .shadow {
+            text-shadow: 2px 2px 4px gray;
+        }
+
+        /* Text Align */
+        .align {
+            text-align: center;
+        }
+
+        /* Text Decoration */
+        .decoration {
+            text-decoration: underline;
+        }
+
+        /* Text Transform */
+        .transform {
+            text-transform: uppercase;
+        }
+
+        /* Letter Spacing */
+        .letter {
+            letter-spacing: 5px;
+        }
+
+        /* Text Indent */
+        .indent {
+            text-indent: 50px;
+        }
+
+        /* Line Height */
+        .line {
+            line-height: 2;
+        }
+
+        /* Word Spacing */
+        .word {
+            word-spacing: 15px;
+        }
+
+        /* White Space */
+        .space {
+            white-space: nowrap;
+        }
+
+        /* Word Break */
+        .break {
+            word-break: break-all;
+            width: 200px;
+        }
+
+        /* Text Overflow */
+        .overflow {
+            width: 200px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
